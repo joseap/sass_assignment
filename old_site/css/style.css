@@ -1,0 +1,274 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	overflow: auto;
+}
+
+.section { 
+	height: 100vh;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav {
+	font-family: 'Oswald', sans-serif;
+	float:right;
+	text-align: center;
+	display: inline-block;
+	margin-right: 150px;
+}
+
+nav a {
+	color: white;
+	background-color: #f89615;
+	padding: 10px 20px;
+	letter-spacing: 3px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+#logolink {
+	opacity: 1;
+}
+
+#logo {
+	float: left;
+	width: 60px;
+	margin-left: 50px;
+	position: fixed;
+}
+
+#down-arrow {
+	font-size: 40px;
+	color: #f89615;
+	font-family: 'arial';
+	text-align: center;
+	margin-left: 0%;
+	margin-top: 200px;
+	display: block;
+}
+
+#down-arrow2 {
+	font-size: 40px;
+	color: #f89615;
+	font-family: 'arial';
+	text-align: center;
+	margin-left: 0%;
+	margin-top: 0px;
+	display: block;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	color: #0bd2de;
+	text-transform: lowercase;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 150px;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	color: #0bd2de;
+	text-transform: lowercase;
+	text-align: center;
+	text-decoration: underline;
+	position: relative;
+}
+
+.italics {
+	font-family: 'Playfair Display', serif;
+	font-style: 30px;
+	font-style: italic;
+	color: #0bd2de;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+.italics2 {
+	font-family: 'Playfair Display', serif;
+	font-style: 30px;
+	font-style: italic;
+	color: rgba(244,139,18,0.8);
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+
+.project-headlines {
+	margin-left: 120px;
+	margin-top: 200px;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Oswald', sans-serif;
+	font-size: 120px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	display: inline-block;
+	clear: both;
+	bottom: 0;
+	line-height: 150px;
+}
+
+.project-headlines2 {
+	margin-right: 150px;
+	margin-top: 250px;
+	text-align: right;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Oswald', serif;
+	font-size: 120px;
+	float: right;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	display: inline-block;
+	clear: both;
+	bottom: 0;
+	line-height: 20px;
+}
+
+
+.right {
+	float: right;
+	margin-left: 300px;
+	margin-top: 10%;
+	color: rgba(255,255,255,1);
+	padding: 10px 20px;
+	position: absolute;
+	display: inline-block;
+	text-align: justify center;
+	width: 300px;
+	font-family: 'Playfair display', serif;
+	text-align: justify;
+	font-weight: 400;
+}
+
+.left {
+	float: left;
+	margin-left: 200px;
+	margin-top: 10%;
+	position: absolute;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: justify center;
+	width: 300px;
+	font-family: 'Playfair display', serif;
+	color: white;
+	text-align: justify;
+}
+
+.coordinates {
+	font-family: 'Playfair display', serif;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+	padding-right: 20px;
+}
+
+
+.right2 {
+	float: right;
+	margin-left: 200px;
+	margin-top: 15%;
+	color: rgba(255,255,255,1);
+	padding: 10px 20px;
+	position: absolute;
+	display: inline-block;
+	text-align: justify center;
+	width: 300px;
+	font-family: 'Playfair display', serif;
+	text-align: justify;
+}
+
+
+#project1{
+	height: 100vh;
+	background-color: #13bac4;
+	width: 100%;
+	display: inline-block;
+	background-image: url("../img/be/modelblue.jpg");
+	opacity: 1;
+	background-size: cover;
+}
+
+#project2{
+	height: 100vh;
+	background-color: #149ba4;
+	width: 100%;
+	display: block;
+	bottom: 0;
+	background-image: url("../img/seventypointfive/totablue.jpg");
+	opacity: 1;
+	background-size: cover;
+
+
+}
+
+#project3{
+	height: 100vh;
+	width: 100%;
+	bottom: 0px;
+	display: inline-block;
+	background-image: url("../img/bleech/bleechblue.jpg");
+	background-size: cover;
+	background-color: #0d7b7c;
+}
+
+
+.up-arrow {
+	font-size: 40px;
+	color: #f89615;
+	font-family: 'arial';
+	text-align: center;
+	padding-top: 80px;
+	display: block;
+}
+
+footer{
+    width: 100%;
+    background-color:#26342b;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    display: block;
+}
+
+footer h3{
+	margin-top: 0px;
+	padding-top: 50px;
+	text-decoration: none;
+}
+
+footer img {
+	width: 300px;
+	margin-top: -50px;
+	margin-left: 38%;
+}
+
+#icons {
+	color: white;
+	text-align: center;
+}
+

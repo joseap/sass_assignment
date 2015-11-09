@@ -1,0 +1,132 @@
+$default-font: 'Playfair display', serif;
+$sub-font: 'Oswald', sans-serif;
+
+.italics {
+
+	font: {
+		family: $default-font;
+		size: 30px;
+		style: italic;
+	}
+
+	color: #0bd2de;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+.italics2 {
+
+	font: {
+		family: $default-font;
+		size: 30px;
+		style: italic;
+	}
+
+	color: rgba(244,139,18,0.8);
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+.project-headlines {
+	margin-left: 120px;
+	margin-top: 200px;
+	display: inline-block;
+	clear: both;
+	bottom: 0;
+
+	font: {
+		family: $sub-font;
+		size: 120px;
+	}
+
+	color: rgba(255,255,255,0.8);
+	letter-spacing: 5px;
+	transform: uppercase;
+	line-height: 150px;
+}
+
+.project-headlines {
+	margin-left: 150px;
+	margin-top: 250px;
+	display: inline-block;
+	clear: both;
+	bottom: 0;
+
+	font: {
+		family: $sub-font;
+		size: 120px;
+	}
+
+	color: rgba(255,255,255,0.8);
+	spacing: 5px;
+	transform: uppercase;
+	line-height: 150px;
+	text-align: right;
+
+}
+
+.right {
+	float: right;
+	margin-left: 300px;
+	margin-top: 10%;
+	padding: 10px 20px;
+	position: absolute;
+	display: inline-block;
+	width: 300px;
+	text-align: justify;
+	color: white;
+
+	font: {
+		family: $default-font;
+		weight: 400;
+	}	
+}
+
+.left {
+	float: left;
+	margin-left: 200px;
+	margin-top: 10%;
+	position: absolute;
+	padding: 10px 20px;
+	display: inline-block;
+	width: 300px;
+
+	font: {
+		family: $default-font;
+	}
+
+	color: white;
+	text-align: justify;
+}
+
+.coordinates {
+
+	padding-right: 20px;
+
+	font: {
+		family: $default-font;
+		style: italic;
+		size: 20px;
+	}
+
+	text-align: center;
+	color: gba(255,255,255,0.8);
+}
+
+.right2 {
+	float: right;
+	margin-left: 200px;
+	margin-top: 15%;
+	width: 300px;
+	display: inline-block;
+	padding: 10px 20px;
+	position: absolute;
+	
+	font: {
+		family: $default-font;
+	}
+
+	text-align: justify;
+	color: rgba(255,255,255,1);
+
+}

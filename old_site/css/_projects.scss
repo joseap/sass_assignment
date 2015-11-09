@@ -1,0 +1,77 @@
+$default-font: 'Playfair display', serif;
+$sub-font: 'Oswald', sans-serif;
+
+#project1{
+	height: 100vh;
+	background-color: #13bac4;
+	width: 100%;
+	display: inline-block;
+	background-image: url("../img/be/modelblue.jpg");
+	opacity: 1;
+	background-size: cover;
+}
+
+#project2{
+	height: 100vh;
+	background-color: #149ba4;
+	width: 100%;
+	display: block;
+	bottom: 0;
+	background-image: url("../img/seventypointfive/totablue.jpg");
+	opacity: 1;
+	background-size: cover;
+
+}
+
+#project3{
+	height: 100vh;
+	width: 100%;
+	bottom: 0px;
+	display: inline-block;
+	background-image: url("../img/bleech/bleechblue.jpg");
+	background-size: cover;
+	background-color: #0d7b7c;
+}
+
+.project-headlines {
+
+	font: {
+		family: $sub-font;
+		size: 120px;
+	}
+
+	color: rgba(255,255,255,0.8);
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+	margin-left: 120px;
+	margin-top: 200px;
+	display: inline-block;
+	clear: both;
+	bottom: 0;
+	line-height: 150px;
+}
+
+.project-headlines2 {
+
+	font: {
+		family: $sub-font;
+		size: 120px;
+	}
+
+	margin: {
+		right: 150px;
+		top: 250px;
+
+	}
+
+	text-align: right;
+	color: rgba(255,255,255,0.8);
+	float: right;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	display: inline-block;
+	clear: both;
+	bottom: 0;
+	line-height: 20px;
+}

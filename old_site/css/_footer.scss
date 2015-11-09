@@ -1,0 +1,29 @@
+$default-font: 'Playfair display', serif;
+$sub-font: 'Oswald', sans-serif;
+
+footer{
+    width: 100%;
+    background-color:#26342b;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    display: block;
+
+    h3 {
+        margin-top: 0px;
+        padding-top: 50px;
+        text-decoration: none;
+    }
+
+    img {
+        width: 300px;
+        margin-top: -50px;
+        margin-left: 38%;
+    }
+}
+
+#icons {
+        text-align: center;
+        color: #fff;
+}

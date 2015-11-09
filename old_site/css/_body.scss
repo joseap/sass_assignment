@@ -1,0 +1,39 @@
+$default-font: 'Playfair display', serif;
+$sub-font: 'Oswald', sans-serif;
+
+body {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	overflow: auto;
+}
+
+h1 {
+
+	font: {
+		family: $default-font;
+		size: 60px;
+	}
+	
+	color: #0bd2de;
+	text-align: center;
+	decoration: underline;
+	transform: lowercase;
+	padding-top: 150px;
+}
+
+h3 {
+
+	font: {
+		family: $default-font;
+		size: 60px;
+	}
+	
+	color: #0bd2de;
+	text-transform: lowercase;
+	text-align: center;
+	text-decoration: underline;
+	position: relative;
+}
